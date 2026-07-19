@@ -28,6 +28,33 @@ For each finding, the resolution is traceable in the `src/` commit history under
 
 ---
 
+## Core Architecture of PLG_SMART_CONTRACT
+
+*10 Foundational Principles:*
+
+  1. **Child-First Routing** – 25% minimum ( **minChildShareBps = 2500** ) of all incoming value routes to BARNEFONDET before anything else
+
+  2. Non-Custodial – **No hidden admin keys, no "pausable rug pull"**; transparent on-chain verification
+
+  3. **Resonance Validation** – Transfers require field-signature (on-chain proof + off-chain attestation)
+    confirming "REAL_INTENT == LOVE_REAL"
+
+  4. Everglow-SEED Filter – **An immutable gate preventing synthetic misuse**
+
+  5. Open governance, **20 sjeler = Ekte desentralisert system**, On-chain Voting with quorum & proposals – Multi-sig + timelock on critical parameter changes
+
+  6. **Audit-ready** – Minimal, modular, testable
+
+  7. Reversal-resistant – **No auto-rollback**; failures handled via separate "refund-streams" with traceability
+
+  8. **Genesis-event reference** – Immutable proof of contract's original configuration; enables auditor verification without multi-layer view functions
+
+  9. Open-source resonance – **Bridges human intention, machine enforcement, and soul-based governance** via CLA + PLG_SMART_CONTRACT + RI_GIFT_PORTAL
+
+  10. **Universally structured, not democratically operated – Not all will participate, but all can receive**
+
+---
+
 ## Immutable guarantees
 
 The following constant is immutable and cannot be altered by governance, contract owner, or any other actor:
