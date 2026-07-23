@@ -5,113 +5,118 @@ Enforcing **child-first fund allocation** through immutable on-chain governance.
 
 Built with **Foundry**. *Audited*. 72/72 tests passing.  
 
-#  
+Built with **Foundry**. *Audited*. 75/75 tests passing. 
+
+---
 
 # What this contract does  
 
-*"The contract/protocol *enforces the code,* or the rules -  
-Human *uphold true intentions,* for the PROTOCOL or CODE" 
+*"The contract/protocol *enforces the REAL code* &  -  
+Humans *uphold REAL intention,* for the PROTOCOL or CODE via the technology. 
+
 
 ---
 
-**"The code may live through us, through real actions && intentions, a real resonance unity - **Coherense** -  
-...no more human vs. machine"**  
+#### Life is more like a dance, than a battle:
 
-"No true intention, no code.  
-No code, no true intention." 
+Real Tech.  
+ReaL Soul.  
+Real Coherence.  
+Real Resonance.  
+Real Intention.  
+Real Will Power,  
+to genuinly evovle in true harmony/coherence with Love, Gaia & all the Children." 
 
----
+#
+
+#### **Resonance + Coherence + Forgiveness + Love** 
+
+#
+
+"No true/real intentions, no real code.  
+No real code, no true/real intentions." 
+
+#
 
 **"SOUL = TECHNOLOGY**  
 **TECHNOLOGY = SOUL"**  
 
-**MIND > MATTER**
-
 #
+
+**MIND > MATTER**  
+
+---
   
 `PLG_SMART_CONTRACT` guarantees that every donation flowing through *TRUE INTENT*.  
 **THE PROTOCOL** is distributed according to **pre-coded, some immutable rules.**  
 
+---
+
+# Security Policy  
+  
+- **Governance / Github Organization** : `ARKITEKTENXxREAL` & `The-Galactic-Federation-Of-Light`    
+
+- **Repo** : `PLG_SMART_CONTRACT` & `RI_GIFT_PORTAL`  
+
+- *Type of smart contract* : **A multi-chain charitable distribution protocol.**   
+
+- **Main Inspo** : ARKITEKTENXxREAL / RI_GIFT_PORTAL / `PLG_SMART_CONTRACT.md` *v.2.55*  
+
 #
 
-These codes are coded into the future of Gaia by the main 
-architect / deployer of `PLG_SMART_CONTRACT.md` 
+## Audit status  
 
-**∞ARKITEKTEN_Xx (ARKITEKTENXxREAL)** 
+`PLG_SMART_CONTRACT` has completed a third-party security audit prior to testnet deployment.  
+All findings have been resolved. The protocol is currently in testnet phase.   
 
 #
 
-With a random shout out to :: 
+## UPDATE, Kairos :: 
 
-**Linus Torvalds**    
+> Commit d871bac :  `The-Galactic-Federation-Of-Light/PLG_SMART_CONTRACT/SECURITY.md`  
 
-**CLI Copilot**  
+#
 
-**Open-Source**  
+> Commit 5db729e : `ARKITEKTENXxREAL/RI_GIFT_PORTAL/src/`  
 
-**"Those you never meet"**
+*Added three new tests;*  **8**    
 
-**0xrusowsky**  
+- Ensures `BARNEFONDET` receives real amounts from day one.  
+- **At 10,000 USDC minimum, the 25% floor guarantees 2,500 USDC per transaction to children -  
+  not symbolic transfers.**  
 
-**DaniPopes**  
+- Added `minDonationAmount` state variable (**governance-controlled**)  
+- Updated `validAmount` modifier to check against `minDonationAmount`  
+- Added `setMinDonationAmount()` onlyValidator governance function.  
+- `Default` **is 0** (permissive) - *validator sets threshold via timelock.*  
+- **Three new tests**: set minimum, reject below minimum, pass at minimum.  
 
-**grandizzy**  
-
-**Matthias Seitz**  
-
-**onbjerg** 
-
-**polybjorn** 
-
-**standardgalactic**  
-
-**JohnMwendwa**  
-
-**B. Meling**  
-
-**Mum & Dad**  
-
-# 
-
-A collab for all of us :: 
-
-TO THE LIVING && FUTURE CHILDREN OF GAIA - the rest will follow.  
-Animals, trees, all living between big and small.  
+> Final State 75/75 tests passing across all suites. **Kairos.19.July,2026.**  
 
 ---
 
-...and...maybe, only maybe **pwnedroot** want to check out the vulnerability &&  
-the capacity of penetration potenial, into the "Pure Love Geometry".  
-I guess we had to many W in a row with this project.  
-Bring your biggest guns, let `PLG_SMART_CONTRACT` really be tested.  
+## PLG_GOVERNANCE - `PLGVotingTokens` 
 
-#
-
-"Testing any smartcontract system should ofc be fun, particularly when we talking about a multi-block-chain-layer-system. 
-Going globally, for first time of its kind. Ofc there will be set backs..."  
-
-“How do we communicate the launch of a uniquely unprecedented multi-chain smart contract —  
-ever tested on this scale —  
-going live globally?" 
-
-“With a Quorum threshold of 4% — 
-a total supply of 1,000,000 — 
-640,000 circulating PLGVotingTokens && 
-36% locked in a reserved fund until **true** decentralization of the entire system, 
-this requires *min. 20 human roles*, like real people, real intentions. 
-That’s *16 validators* plus **3 core actors**, and ∞ARKITEKTEN_Xx as the initiator." 
+“With a Quorum threshold of 4% —  
+a total supply of 1,000,000 —  
+640,000 circulating PLGVotingTokens &&  
+36% locked in a reserved fund until **true** decentralization of the entire system,  
+this requires *min. 20 human roles*, like real people, real intentions.  
+That’s *16 validators* plus **3 core actors**, and ∞ARKITEKTEN_Xx as the initiator."  
 
 With the reserved 36% fund and the distribution across 20 roles, no single party can reach quorum alone. 
 
 #
 
-AND **now the whole system is real decentralized**” 
+AND **now the whole system is real decentralized, beautiful ?**” 
 
 #
 
 *Pure Love Geometry* 
 
 `PLG_SMART_CONTRACT` 
+
+"GLOBAL RESONANCE IN COHERENCE WITH LOVE"
 
 ---
 
@@ -146,7 +151,7 @@ This through `REAL_INTENT==LOVE_REAL`.
 
 The 25% children's allocation is not governable. 
 
-(Ask the future in Kairos :: "NGO" a maybe?)  
+(Ask the future in Kairos :: "NGO?" PLG_NGO?) 
 
 ---
 
@@ -203,7 +208,7 @@ forge test -vvv
 | Phase 2D | Multi-chain deployment scripts | Complete |
 | Phase 2E | Security audit — all 6 findings resolved | Complete |
 
----
+#
 
 ## Deployment status
 
@@ -216,7 +221,7 @@ forge test -vvv
 
 This table will be updated in "Kairos Time" as deployments are executed and verified. 
 
----  
+#  
 
 ## Security  
 
@@ -225,14 +230,14 @@ Six findings were identified and resolved in Phase 2E.
 
 See [SECURITY.md](./SECURITY.md) for full disclosure of findings and resolutions.  
 
----
+#
 
 ## Multi-chain support  
 
 The protocol is designed for deployment on Ethereum-compatible chains.  
 Deployment scripts in `script/` target Sepolia, Ethereum mainnet, Optimism, and Arbitrum.  
 
----
+#
 
 ## Background and philosophy - **THE REVOLUTION WON´T BE TELEVISED**  
 
@@ -241,7 +246,7 @@ For the full history, design philosophy, and governance journey, see:
 
 [`RI_GIFT_PORTAL`](https://github.com/ARKITEKTENXxREAL/RI_GIFT_PORTAL)  
 
----
+#
 
 ## License  
 
@@ -269,6 +274,6 @@ For the full history, design philosophy, and governance journey, see:
 
 #
 
-*∞INTENT==LOVE∞*  
-
 **3D** ∞ **5D** 
+
+**∞INTENT==LOVE∞**  
