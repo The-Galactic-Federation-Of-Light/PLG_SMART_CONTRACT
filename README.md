@@ -10,47 +10,11 @@ Built with **Foundry**. *Audited*. 75/75 tests passing.
 ---
 
 # What this contract does  
-
-*"The contract/protocol *enforces the REAL code* &  -  
-Humans *uphold REAL intention,* for the PROTOCOL or CODE via the technology. 
-
-
----
-
-#### Life is more like a dance, than a battle:
-
-Real Tech.  
-ReaL Soul.  
-Real Coherence.  
-Real Resonance.  
-Real Intention.  
-Real Will Power,  
-to genuinly evovle in true harmony/coherence with Love, Gaia & all the Children." 
-
-#
-
-#### **Resonance + Coherence + Forgiveness + Love** 
-
-#
-
-"No true/real intentions, no real code.  
-No real code, no true/real intentions." 
-
-#
-
-**"SOUL = TECHNOLOGY**  
-**TECHNOLOGY = SOUL"**  
-
-#
-
-**MIND > MATTER**  
-
----
   
 `PLG_SMART_CONTRACT` guarantees that every donation flowing through *TRUE INTENT*.  
 **THE PROTOCOL** is distributed according to **pre-coded, some immutable rules.**  
 
----
+#
 
 # Security Policy  
   
@@ -116,7 +80,7 @@ AND **now the whole system is real decentralized, beautiful ?**”
 
 `PLG_SMART_CONTRACT` 
 
-"GLOBAL RESONANCE IN COHERENCE WITH LOVE"
+"GLOBAL RESONANCE IN COHERENCE WITH LOVE"  
 
 ---
 
@@ -125,10 +89,10 @@ AND **now the whole system is real decentralized, beautiful ?**”
 - **25% minimum** to **BARNEFONDET** (children's welfare fund) — enforced as an "immutable constant" a real "hard floor", that only may be voted up, never down.  
 - **70%** to global infrastructure and charitable projects. (voting + quorum = future "PLG_NODES")
 - **5%** to maintenance & operation fee of the project / `PLG_SMART_CONTRACT`  
-
-Child-first routing/logic (before anything else) = 25% "hard floor". 
+#
+Child-first routing/logic/allocation (before anything else) = 25% "hard floor".  
 No governance vote can override this, never lower than 25%.  
-If only, only up! 
+If only, only up!  
 It is written in code, not policy.  
 
 Example :: `minChildshareBps >= 2500` and `MIN_CHILD_FLOOR (2500 = 25%)`  
@@ -146,12 +110,18 @@ The protocol consists of four contracts deployed as a family of "multi-chain-sma
 | `PLGTimelock` | Delay layer between governance decisions and execution. |
 | `PLGGovernor` | OpenZeppelin Governor. 4% quorum of total supply (40,000 tokens) |
 
-`Governance`duties: Protect, maintain && evolve `project selection` and `fund allocation` *within* the 70% pool (global infrastructure, ++)  
-This through `REAL_INTENT==LOVE_REAL`. 
+#### A real `PLG_GOVERNANCE` duties evolved through many people + `ARKITEKTENXxREAL`s repo :: `RI_GIFT_PORTAL` ::  
 
-The 25% children's allocation is not governable. 
+#### Further through the `Github organization` ::  
 
-(Ask the future in Kairos :: "NGO?" PLG_NGO?) 
+### `The-Galactic-Federation-Of-Light` : 
+
+Protect, maintain && evolve `project selection` && `fund allocation` *within* the 70% pool ("global infrastructure fund", PLG_NODES, ++)  
+This through **real humans** in real and true resonance && coherence with :: `REAL_INTENT==LOVE_REAL`  
+
+> The 25% children's allocation **is not** governable. 
+
+- (Ask the future in Kairos :: "`PLG_NGO`?"
 
 ---
 
